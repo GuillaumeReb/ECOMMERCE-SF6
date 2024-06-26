@@ -21,7 +21,7 @@ class ProfileController extends AbstractController
     public function orders(): Response
     {
         return $this->render('profile/index.html.twig', [
-            'controller_name' => 'Commande de l\'utilisateur',
+            'controller_name' => 'Commandes de l\'utilisateur',
         ]);
     }
 }
